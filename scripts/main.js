@@ -5,11 +5,11 @@
   const FRAME_RATE = 60
   const PARTICLE_NUM = 2000
   const RADIUS = Math.PI * 2
-  const CANVASWIDTH = 500
+  const CANVASWIDTH = 900
   const CANVASHEIGHT = 150
   const CANVASID = 'canvas'
 
-  let texts = ['刘', 'LOOK UP AT THE', 'STARRY SKY', 'ARE YOU', 'LOOKING AT THE', 'SAME STAR', 'WITH ME ?', 'HAPPY', 'CHINESE', 'VALENTINE\'S', 'DAY', 'I MISS YOU']
+  let texts = ['刘乖乖你好啊', '情人节快乐', '先给你说声抱歉', '没有更好的礼物给你', '还惹你生气了', '但乖乖心胸宽广', '应该不会一直生我气吧', '我说过想陪你过每一个情人节', '我好像都和你一起过了', '也都想和你一起过', '也想和你一起打闹', '一起做我们都开心的事' , '好了剩下的话想亲口给你说' , '错了，求原谅乖乖']
 
   let canvas,
     ctx,
@@ -209,7 +209,7 @@
     }
   }
   
-  var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor)
     if(!isChrome){
       $('#iframeAudio').remove()
   }
